@@ -10,6 +10,7 @@ export default function HomeScreen() {
       <Link href="/(tabs)/(home)/using-scroll-view">Using a ScrollView</Link>
       <Link href="/(tabs)/(home)/using-flat-list">Using FlatList</Link>
       <Link href="/(tabs)/(home)/using-section-list">Using SectionList</Link>
+      <Link href="/(tabs)/(home)/platform-specific-code">Platform-Specific Code</Link>
     </SafeAreaView>
   );
 }

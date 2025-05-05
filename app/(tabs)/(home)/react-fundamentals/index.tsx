@@ -1,6 +1,5 @@
 import {Text, TextInput, View, Image, Button} from "react-native";
 import {useState} from "react";
-import {State} from "react-native-gesture-handler";
 
 export default function ReactFundamentals() {
   const name = "Maru";

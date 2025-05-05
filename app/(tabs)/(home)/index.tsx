@@ -16,6 +16,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/flex-dimensions">Flex Dimensions</Link>
       <Link style={styles.link} href="/(tabs)/(home)/percentage-dimensions">Percentage Dimensions</Link>
       <Link style={styles.link} href="/(tabs)/(home)/flex-box">Flex Box</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/flex-direction">Flex Direction</Link>
     </SafeAreaView>
   );
 }

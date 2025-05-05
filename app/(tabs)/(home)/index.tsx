@@ -4,12 +4,9 @@ import {Link} from "expo-router";
 export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <View>
-        <Link href="/(tabs)/(home)/core-components">Core Components</Link>
-      </View>
-      <View>
-        <Link href="/(tabs)/(home)/react-fundamentals">React Fundamentals</Link>
-      </View>
+      <Link href="/(tabs)/(home)/core-components">Core Components</Link>
+      <Link href="/(tabs)/(home)/react-fundamentals">React Fundamentals</Link>
+      <Link href="/(tabs)/(home)/handling-text-input">Handling Text Input</Link>
     </SafeAreaView>
   );
 }

@@ -8,6 +8,7 @@ export default function HomeScreen() {
       <Link href="/(tabs)/(home)/react-fundamentals">React Fundamentals</Link>
       <Link href="/(tabs)/(home)/handling-text-input">Handling Text Input</Link>
       <Link href="/(tabs)/(home)/using-scroll-view">Using a ScrollView</Link>
+      <Link href="/(tabs)/(home)/using-flat-list">Using FlatList</Link>
     </SafeAreaView>
   );
 }

@@ -1,14 +1,15 @@
-import {Text, StyleSheet, SafeAreaView} from 'react-native';
+import {Text, StyleSheet, SafeAreaView, View} from 'react-native';
 import {Link} from "expo-router";
 
 export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Home Screen</Text>
-      <Link href={{
-        pathname: '/details/[id]',
-        params: {id: 'bacon'},
-      }}>View user details</Link>
+      <View>
+        <Link href="/(tabs)/(home)/core-components">Core Components</Link>
+      </View>
+      <View>
+        <Link href="/(tabs)/(home)/react-fundamentals">React Fundamentals</Link>
+      </View>
     </SafeAreaView>
   );
 }

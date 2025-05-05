@@ -11,6 +11,7 @@ export default function HomeScreen() {
       <Link href="/(tabs)/(home)/using-flat-list">Using FlatList</Link>
       <Link href="/(tabs)/(home)/using-section-list">Using SectionList</Link>
       <Link href="/(tabs)/(home)/platform-specific-code">Platform-Specific Code</Link>
+      <Link href="/(tabs)/(home)/core-component-style">style</Link>
     </SafeAreaView>
   );
 }

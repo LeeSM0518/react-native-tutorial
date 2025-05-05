@@ -13,6 +13,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/platform-specific-code">Platform-Specific Code</Link>
       <Link style={styles.link} href="/(tabs)/(home)/core-component-style">style</Link>
       <Link style={styles.link} href="/(tabs)/(home)/fixed-dimensions">Fixed Dimensions</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/flex-dimensions">Flex Dimensions</Link>
     </SafeAreaView>
   );
 }

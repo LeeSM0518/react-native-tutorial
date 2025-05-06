@@ -1,9 +1,9 @@
-import {Text, StyleSheet, SafeAreaView, View} from 'react-native';
+import {Text, StyleSheet, SafeAreaView, View, ScrollView} from 'react-native';
 import {Link} from "expo-router";
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView style={styles.container}>
+    <ScrollView style={styles.container}>
       <Link style={styles.link} href="/(tabs)/(home)/core-components">Core Components</Link>
       <Link style={styles.link} href="/(tabs)/(home)/react-fundamentals">React Fundamentals</Link>
       <Link style={styles.link} href="/(tabs)/(home)/handling-text-input">Handling Text Input</Link>
@@ -17,15 +17,15 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/percentage-dimensions">Percentage Dimensions</Link>
       <Link style={styles.link} href="/(tabs)/(home)/flex-box">Flex Box</Link>
       <Link style={styles.link} href="/(tabs)/(home)/flex-direction">Flex Direction</Link>
-    </SafeAreaView>
+      <Link style={styles.link} href="/(tabs)/(home)/layout-direction">Layout Direction</Link>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    margin: '5%'
   },
   link: {
     fontSize: 20,

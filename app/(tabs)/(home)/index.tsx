@@ -23,6 +23,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/align-self">Align Self</Link>
       <Link style={styles.link} href="/(tabs)/(home)/align-content">Align Content</Link>
       <Link style={styles.link} href="/(tabs)/(home)/flex-wrap">Flex Wrap</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/flex-basis">Flex Basis, Grow, and Shrink</Link>
     </ScrollView>
   );
 }

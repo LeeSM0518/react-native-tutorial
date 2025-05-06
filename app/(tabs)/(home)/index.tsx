@@ -18,6 +18,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/flex-box">Flex Box</Link>
       <Link style={styles.link} href="/(tabs)/(home)/flex-direction">Flex Direction</Link>
       <Link style={styles.link} href="/(tabs)/(home)/layout-direction">Layout Direction</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/justify-content">Justify Content</Link>
     </ScrollView>
   );
 }

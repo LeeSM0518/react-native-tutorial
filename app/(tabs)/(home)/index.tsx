@@ -11,7 +11,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/using-flat-list">Using FlatList</Link>
       <Link style={styles.link} href="/(tabs)/(home)/using-section-list">Using SectionList</Link>
       <Link style={styles.link} href="/(tabs)/(home)/platform-specific-code">Platform-Specific Code</Link>
-      <Link style={styles.link} href="/(tabs)/(home)/core-component-style">style</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/core-component-style">Style</Link>
       <Link style={styles.link} href="/(tabs)/(home)/fixed-dimensions">Fixed Dimensions</Link>
       <Link style={styles.link} href="/(tabs)/(home)/flex-dimensions">Flex Dimensions</Link>
       <Link style={styles.link} href="/(tabs)/(home)/percentage-dimensions">Percentage Dimensions</Link>
@@ -27,6 +27,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/row-gap">Row Gap, Column Gap and Gap</Link>
       <Link style={styles.link} href="/(tabs)/(home)/width-and-height">Width and Height</Link>
       <Link style={styles.link} href="/(tabs)/(home)/position">Position</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/images">Images</Link>
     </ScrollView>
   );
 }

@@ -29,6 +29,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/position">Position</Link>
       <Link style={styles.link} href="/(tabs)/(home)/images">Images</Link>
       <Link style={styles.link} href="/(tabs)/(home)/button-basics">Button Basics</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/touchables">Touchables</Link>
     </ScrollView>
   );
 }

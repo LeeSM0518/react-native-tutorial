@@ -30,6 +30,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/images">Images</Link>
       <Link style={styles.link} href="/(tabs)/(home)/button-basics">Button Basics</Link>
       <Link style={styles.link} href="/(tabs)/(home)/touchables">Touchables</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/animated-fading-in">Animated Fading In</Link>
     </ScrollView>
   );
 }

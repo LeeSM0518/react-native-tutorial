@@ -1,4 +1,4 @@
-import {Text, StyleSheet, SafeAreaView, View, ScrollView} from 'react-native';
+import {StyleSheet, ScrollView} from 'react-native';
 import {Link} from "expo-router";
 
 export default function HomeScreen() {
@@ -28,6 +28,7 @@ export default function HomeScreen() {
       <Link style={styles.link} href="/(tabs)/(home)/width-and-height">Width and Height</Link>
       <Link style={styles.link} href="/(tabs)/(home)/position">Position</Link>
       <Link style={styles.link} href="/(tabs)/(home)/images">Images</Link>
+      <Link style={styles.link} href="/(tabs)/(home)/button-basics">Button Basics</Link>
     </ScrollView>
   );
 }
